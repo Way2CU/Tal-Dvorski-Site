@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<footer>
+
+		<h2><cms:text constant="header_title"/></h2>
+		<address>
+			<span>
+				<svg>
+					<use
+						href="#icon-mobile"
+						xlink:href="site/images/site-images.svg#icon-mobile"	
+						/>
+				</svg>
+				<cms:text constant="cell_phone"/>
+			</span>
+
+			<span>
+				<svg>
+					<use
+						href="#icon-fax"
+						xlink:href="site/images/site-images.svg#icon-fax"	
+						/>
+				</svg>
+				<cms:text constant="fax"/>
+			</span>
+
+			<span>
+				<svg>
+					<use
+						href="#icon-email-envelope"
+						xlink:href="site/images/site-images.svg#icon-email-envelope"	
+						/>
+				</svg>
+				<cms:text constant="mail"/>
+			</span>
+
+			<span>
+				<svg>
+					<use
+						href="#icon-location"
+						xlink:href="site/images/site-images.svg#icon-location"	
+						/>
+				</svg>
+				<cms:text constant="address"/>
+			</span>
+
+			<a href="#">
+				<cms:text constant="facebook_call_to_action"/>
+				<svg>
+					<use
+						href="#icon-facebook-icon"
+						xlink:href="site/images/site-images.svg#icon-facebook-icon"	
+						/>
+				</svg>				
+			</a>
+			
+		</address>
+
+
+		<div class="form_wrap">
+			<p><cms:text constant="form_title"/></p>
+			<cms:module
+				name="contact_form"
+				action="show"
+				text_id="contact"
+				/>
+		</div>
+
+		<figure></figure>
+
+		<div class="copyright">
+			
+		</div>
+
+	</footer>
+</document>	
