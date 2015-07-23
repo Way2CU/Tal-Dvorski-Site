@@ -1,0 +1,179 @@
+/**
+ * Footer Style Sheet
+ * Tal Dvorski Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ footer {
+ 	display: block;
+ 	text-align: center;
+ 	margin-top: 70px;
+ 	padding:50px calc((100vw - 1200px) / 2);
+ 	background-image: url(../images/texture.png);
+ 	background-repeat: repeat;
+ 	background-position:center center;
+ 	background-size: 227px 227px;
+ }
+
+ footer h2 {
+ 	display: block;
+ 	padding-top: 220px;
+ 	padding-bottom: 20px;
+ 	background-image: url(../images/logo.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: 220px 220px;
+ 	color:#565656;
+ }
+
+footer address {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	font-style: normal;
+	border-top: 1px solid #565656;
+	color:#565656;
+	width: 600px;
+}
+
+footer address span {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+	vertical-align: middle;
+	padding: 5px 0px;
+	width: 50%;
+}
+
+footer address span:hover svg {
+	fill:#742d23;
+}
+
+footer address span svg {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 8px;
+	width: 25px;
+	height: 25px;
+	fill:#565656;
+	transition:all 0.3s;
+}
+
+footer address a {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 1.3em;
+	color:#565656;
+	text-decoration: none;
+	transition:all 0.3s;
+}
+
+footer address a:hover svg {
+	fill:#425F9C;
+}
+
+footer address a svg {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 8px;
+	width: 35px;
+	height: 35px;
+	fill:#565656;
+	transition:all 0.3s;	
+}
+
+div.form_wrap {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+}
+
+div.form_wrap p {
+	display: block;
+	padding-bottom: 20px;
+}
+
+form {
+	display: block;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+	position:relative;
+}
+
+form label:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: grey;
+	background-image: url(../images/site-images.svg#icon-name-form);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 35px 35px;
+	width: 35px;
+	height: 35px;
+}
+
+form label input {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	border: 1px solid #565656;
+	width: calc(80% - 40px);
+}
+
+form div.controls {
+	display: block;
+}
+
+form div.controls button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 80%;
+	color: white;
+	background-color: #742d23;
+	cursor: pointer;
+	font-size: 1.3em;
+	border: none;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.39);
+}
+
+::-webkit-input-placeholder {
+   color: #565656;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #565656;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #565656;  
+}
+
+:-ms-input-placeholder {  
+   color: #565656;  
+} 
+
+
+
+footer figure {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+	background-image: url(../images/footer-map.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border: 2px solid #565656;
+	width: calc(60% - 4px);
+	height: 383px;
+}
