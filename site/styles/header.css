@@ -1,0 +1,63 @@
+/**
+ * Main Style Sheet
+ * Tal Dvorski Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+header {
+	display: block;
+	position: fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+header div.header_container {
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width:1200px;
+}
+
+header div.header_container > a {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	color:#742d23;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 700;	
+	width: 20%
+}
+
+header div.header_container > a svg {
+	width: 35px;
+	height: 35px;
+	padding-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	fill:#742d23;	
+}
+
+nav {
+	display: table-cell;
+	vertical-align: middle;
+	width: 80%;
+}
+
+nav a {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+	color:#742d23;
+	font-size: 1.3em;
+	position: relative;
+}
+
