@@ -49,20 +49,21 @@
 					<cms:text constant="menu_contact"/>
 				</a>
 			</nav>
-
-			<a
-				href="'tel:'.urlencode(Language::getText('phone'))"
-				cms:eval="href"
-				class="phone"
-				>
-				<cms:text constant="phone"/>
-				<svg>
-					<use
-						href="#icon-phone"
-						xlink:href="site/images/site-images.svg#icon-phone"	
-						/>
-				</svg>
-			</a>
+			<div class="call_to_action">
+				<a
+					href="'tel:'.urlencode(Language::getText('phone'))"
+					cms:eval="href"
+					class="phone"
+					>
+					<cms:text constant="phone"/>
+					<svg>
+						<use
+							href="#icon-phone"
+							xlink:href="site/images/site-images.svg#icon-phone"	
+							/>
+					</svg>
+				</a>
+			</div>
 		</div>
 	</header>
 </document>
