@@ -1,7 +1,5 @@
 # Tal Dvorsky Site
 
-Site description
-
 ## License
 
 The MIT License (MIT)
