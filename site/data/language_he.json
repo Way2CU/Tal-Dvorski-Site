@@ -1,9 +1,17 @@
 {
     "site_title": "Tal Dvorski-wooden art",
+    "header_title":"טל דבורסקי אומנות בעץ מלא",
+    "cell_phone":"סלולרי:054-7771050 ",
+    "facebook_call_to_action":"שתפו את האתר שלנו בפייסבוק:",
+    "fax":"טלפקס:072-2409898 ",
+    "mail":"taldvirski@gmail.com",
+    "address":"כפר סירקין - מיקוד 4993500",
+    "form_title":"למידע נוסף מלאו פרטים ונחזור אליכם בהקדם:",
     "menu_home":"בית",
     "menu_about":"אודותינו",
     "menu_gallery":"גלריה",
     "menu_articles":"מאמרים",
     "menu_contact":"צרו קשר",
-    "phone":"054-7771050"
+    "phone":"054-7771050",
+    "send":"שלח פרטים"
 }
