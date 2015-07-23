@@ -2,59 +2,67 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<header>
-		<nav>
-			<a
-				class=" == 'home' ? 'active' : false"
-				href="url_Make('', 'home')"
-				cms:eval="href"
-				cms:optional="class"
-				>
-				<cms:text constant="menu_home"/>
-			</a>
+		<div class="header_container">
+			<nav>
+				<a
+					class=" == 'home' ? 'active' : false"
+					href="url_Make('', 'home')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_home"/>
+				</a>
+
+				<a
+					class=" == 'about' ? 'active' : false"
+					href="url_Make('', 'about')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_about"/>
+				</a>
+
+				<a
+					class=" == 'gallery' ? 'active' : false"
+					href="url_Make('', 'gallery')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_gallery"/>
+				</a>
+
+				<a
+					class=" == 'articles' ? 'active' : false"
+					href="url_Make('', 'articles')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_articles"/>
+				</a>
+
+				<a
+					class=" == 'contact' ? 'active' : false"
+					href="url_Make('', 'contact')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_contact"/>
+				</a>
+			</nav>
 
 			<a
-				class=" == 'about' ? 'active' : false"
-				href="url_Make('', 'about')"
+				href="'tel:'.urlencode(Language::getText('phone'))"
 				cms:eval="href"
-				cms:optional="class"
+				class="phone"
 				>
-				<cms:text constant="menu_about"/>
+				<cms:text constant="phone"/>
+				<svg>
+					<use
+						href="#icon-phone"
+						xlink:href="site/images/site-images.svg#icon-phone"	
+						/>
+				</svg>
 			</a>
-
-			<a
-				class=" == 'gallery' ? 'active' : false"
-				href="url_Make('', 'gallery')"
-				cms:eval="href"
-				cms:optional="class"
-				>
-				<cms:text constant="menu_gaallery"/>
-			</a>
-
-			<a
-				class=" == 'articles' ? 'active' : false"
-				href="url_Make('', 'articles')"
-				cms:eval="href"
-				cms:optional="class"
-				>
-				<cms:text constant="menu_articles"/>
-			</a>
-
-			<a
-				class=" == 'contact' ? 'active' : false"
-				href="url_Make('', 'contact')"
-				cms:eval="href"
-				cms:optional="class"
-				>
-				<cms:text constant="menu_contact"/>
-			</a>
-		</nav>
-
-		<a
-			href="'tel:'.urlencode(Language::getText('phone'))"
-			cms:eval="href"
-			class="phone"
-			>
-			<cms:text constant="phone"/>
-		</a>
+		</div>
 	</header>
 </document>
