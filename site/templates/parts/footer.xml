@@ -58,19 +58,21 @@
 		</address>
 
 
-		<div class="form_wrap">
-			<p><cms:text constant="form_title"/></p>
-			<cms:module
-				name="contact_form"
-				action="show"
-				text_id="contact"
-				/>
+		<div class="contact_info">
+			<div class="form_wrap">
+				<p><cms:text constant="form_title"/></p>
+				<cms:module
+					name="contact_form"
+					action="show"
+					text_id="contact"
+					/>
+			</div>
+		
+			<figure></figure>
 		</div>
 
-		<figure></figure>
-
-		<div class="copyright">
-			
+		<div class="copyright" id="contact" >
+			<span><cms:text constant="copyright"/></span>
 		</div>
 
 	</footer>
