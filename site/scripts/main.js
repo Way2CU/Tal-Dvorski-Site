@@ -49,6 +49,7 @@ Site.is_mobile = function() {
  * Function called when document and images have been completely loaded.
  */
 Site.on_load = function() {
+
 };
 
 
