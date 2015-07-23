@@ -59,11 +59,28 @@ nav {
 nav a {
 	display: inline-block;
 	vertical-align: middle;
-	padding-left: 15px;
-	padding-right: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-decoration: none;
 	color:#742d23;
 	font-size: 1.3em;
 	position: relative;
+}
+
+nav a:before {
+	content: "";
+	position: absolute;
+	top:100%;
+	left: 0px;
+	width: 0%;
+	height: 2px;
+	background-color:#565656;
+	transition:all 0.3s; 
+}
+
+nav a:hover:before {
+	width: 100%;
 }
 
