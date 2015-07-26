@@ -11,6 +11,28 @@
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<cms:svg file="../images/site-images.svg"/>
 			<cms:template file="parts/header.xml"/>
+
+			<div class="main">
+				<h1><cms:text constant="header_title"/></h1>
+				<a
+					href="'tel:'.urlencode(Language::getText('phone'))"
+					cms:eval="href"
+					class="phone"
+					>
+					<cms:text constant="phone"/>
+					<svg>
+						<use
+							href="#icon-phone"
+							xlink:href="site/images/site-images.svg#icon-phone"	
+							/>
+					</svg>
+				</a>
+			</div>
+
+			<div class="features">
+				
+			</div>
+
 			<cms:template file="parts/footer.xml"/>
 		</body>
 	</html>
