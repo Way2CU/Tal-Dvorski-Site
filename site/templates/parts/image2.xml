@@ -1,0 +1,10 @@
+<document>
+	<a 
+		href="$params['image']" 
+		class="image direct" 
+		style="'background-image: url('.$params['image'].');'"
+		cms:eval="href,style"
+		>
+		<p><cms:var param="title" multilanguage="yes"/></p>	
+	</a>
+</document>
