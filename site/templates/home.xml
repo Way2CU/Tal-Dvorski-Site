@@ -30,8 +30,37 @@
 			</div>
 
 			<div class="features">
-				
+				<cms:module
+					name="gallery"
+					action="show_image_list"
+					group="features"
+					template="parts/image.xml"
+					/>
 			</div>
+
+			<div class="home_gallery">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="benefits"
+					template="parts/article.xml"
+					/>
+
+				<a 
+					href="url_Make('', 'gallery')"
+					cms:eval="href"
+					>
+					<cms:text constant="btn_gallery"/>
+				</a>
+	
+			</div>
+
+			<cms:module
+				name="gallery"
+				action="show_image_list"
+				group="home_page_gallery"
+				template="parts/home_gallery_images.xml"
+				/>
 
 			<cms:template file="parts/footer.xml"/>
 		</body>
