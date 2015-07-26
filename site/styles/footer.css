@@ -10,7 +10,6 @@
  	display: block;
  	text-align: center;
  	padding-top: 50px;
- 	margin-top: 70px;
  	background-image: url(../images/texture.png);
  	background-repeat: repeat;
  	background-position:center center;
@@ -178,7 +177,7 @@ form div.controls button {
 }
 
 form div.controls button:hover {
-	background-color:#565656; 
+	background-color:#d25300; 
 }
 
 ::-webkit-input-placeholder {
