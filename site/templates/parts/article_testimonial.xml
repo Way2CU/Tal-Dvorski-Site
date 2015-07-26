@@ -1,0 +1,5 @@
+<document>
+	<div class="testimonial">
+		<cms:markdown param="content" multilanguage="yes"/>
+	</div>
+</document>
