@@ -302,7 +302,6 @@ div.testimonial {
 	left: 50%;
 	margin-left: -300px;
 	width: 600px;
-	height: 400px;
 	opacity:0;
 	border-top:1px solid #565656;
 	transition:all 0.3s;
