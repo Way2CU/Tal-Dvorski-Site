@@ -1,0 +1,17 @@
+<document>
+	<div class="feature" style="'background-image: url('.$params['image'].');'" cms:eval="style">
+		<div class="info">
+			<h3><cms:var param="title" multilanguage="yes"/></h3>
+			<p><cms:var param="description" multilanguage="yes"/></p>
+		</div>
+		<div class="description">
+			<cms:module
+				name="articles"
+				action="show"
+				text_id="$params['text_id']"
+				template="parts/description.xml"
+				cms:eval="text_id"
+				/>
+		</div>
+	</div>
+</document>	
