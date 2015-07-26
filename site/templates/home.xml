@@ -81,9 +81,9 @@
 				/>
 
 				<div class="btn_controls">
-					<a href="javascript:void(0)" class="control"></a>
-					<a href="javascript:void(0)" class="control"></a>
-					<a href="javascript:void(0)" class="control"></a>
+					<a href="#" class="control"></a>
+					<a href="#" class="control"></a>
+					<a href="#" class="control"></a>
 				</div>
 			</div>
 
