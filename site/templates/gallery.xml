@@ -5,7 +5,7 @@
 	<html lang="$language" cms:eval="lang">
 		<head>
 			<title><cms:text constant="site_title"/></title>
-			<cms:collection include="page_control"/>
+			<cms:collection include="page_control,animation_chain"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
@@ -19,7 +19,7 @@
 					name="gallery"
 					action="show_image_list"
 					group="gallery_page"
-					template="parts/home_gallery_images.xml"
+					template="parts/image2.xml"
 					/>
 			</div>
 
