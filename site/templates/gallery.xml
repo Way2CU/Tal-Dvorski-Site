@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:collection include="page_control"/>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:svg file="../images/site-images.svg"/>
+			<cms:template file="parts/header.xml"/>
+
+			<div class="$section == 'gallery' ? 'gallery' : false" cms:optional="class">
+				<h2><cms:text constant="menu_gallery"/></h2>
+				<cms:module
+					name="gallery"
+					action="show_image_list"
+					group="gallery_page"
+					template="parts/home_gallery_images.xml"
+					/>
+			</div>
+
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>
