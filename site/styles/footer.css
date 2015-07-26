@@ -73,6 +73,10 @@ footer address a {
 	transition:all 0.3s;
 }
 
+footer address a:hover {
+	color:#425F9C;
+}
+
 footer address a:hover svg {
 	fill:#425F9C;
 }
