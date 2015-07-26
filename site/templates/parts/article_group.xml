@@ -1,0 +1,13 @@
+<document>
+	<h2><cms:var param="title" multilanguage="yes"/></h2>
+	<div class="container">
+		<cms:module
+			name="articles"
+			action="show_list"
+			group="$params['id']"
+			template="parts/article_testimonial.xml"
+			cms:eval="group"
+			/>
+	</div>	
+
+</document>
