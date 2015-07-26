@@ -87,7 +87,11 @@ nav a:hover {
 }
 
 nav a.active {
-	color:red;
+	color:#d25300;
+}
+
+nav a.active:before {
+	width: 100%;
 }
 
 nav a:before {
