@@ -54,6 +54,8 @@ Site.on_load = function() {
 	.setInterval(5000)
 	.setWrapAround(true);
 
+	Caracal.lightbox = new LightBox('a.image.direct', false, false, true)
+
 };
 
 
