@@ -248,3 +248,24 @@ figure {
 	width: 33.3%;
 }
 
+div.about {
+	display: block;
+	text-align: center;
+	padding:0px calc((100vw - 1200px) / 2);
+	background-image: url(../images/know-background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+div.about h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	font-weight: 300;
+	color:white;
+	width: 800px;
+}
+
