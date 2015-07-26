@@ -62,6 +62,15 @@
 				template="parts/home_gallery_images.xml"
 				/>
 
+			<div class="about">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="home_page_about"
+					template="parts/article2.xml"
+					/>
+			</div>	
+
 			<cms:template file="parts/footer.xml"/>
 		</body>
 	</html>
