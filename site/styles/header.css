@@ -41,13 +41,19 @@ div.call_to_action a {
 	font-weight: 700;	
 }
 
+
 div.call_to_action a svg {
 	width: 35px;
 	height: 35px;
 	padding-right: 10px;
 	display: inline-block;
 	vertical-align: middle;
-	fill:#742d23;	
+	fill:#742d23;
+	transition:all 0.3s;	
+}
+
+div.call_to_action a:hover svg {
+	fill:#d25300;
 }
 
 nav {
@@ -69,6 +75,10 @@ nav a {
 	position: relative;
 }
 
+nav a.active {
+	color:red;
+}
+
 nav a:before {
 	content: "";
 	position: absolute;
@@ -76,7 +86,7 @@ nav a:before {
 	left: 0px;
 	width: 0%;
 	height: 2px;
-	background-color:#565656;
+	background-color:#d25300;
 	transition:all 0.3s; 
 }
 
