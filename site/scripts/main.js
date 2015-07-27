@@ -49,6 +49,14 @@ Site.is_mobile = function() {
  * Function called when document and images have been completely loaded.
  */
 Site.on_load = function() {
+
+	if (Site.is_mobile()) {
+		Site.mobile_menu = new Caracal.MobileMenu();
+		Site.mobile_title = $('.mobile_title');
+
+	}
+
+	
 	testimonial = new PageControl('div.container','div.testimonial')
 	testimonial.attachControls($('div.btn_controls a.control'))
 	.setInterval(5000)
