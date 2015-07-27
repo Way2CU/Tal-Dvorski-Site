@@ -5,7 +5,11 @@
 
 		<h2><cms:text constant="header_title"/></h2>
 		<address>
-			<span>
+			<a
+				href="'tel:'.urlencode(Language::getText('phone'))"
+				cms:eval="href"
+				class="phone"
+				>		
 				<svg>
 					<use
 						href="#icon-mobile"
@@ -13,9 +17,9 @@
 						/>
 				</svg>
 				<cms:text constant="cell_phone"/>
-			</span>
+			</a>
 
-			<span>
+			<a href="jacascript:void(0)">
 				<svg>
 					<use
 						href="#icon-fax"
@@ -23,9 +27,11 @@
 						/>
 				</svg>
 				<cms:text constant="fax"/>
-			</span>
+			</a>
 
-			<span>
+			<a href="'mailto:'.urlencode(Language::getText('mail'))"
+				cms:eval="href"
+				>
 				<svg>
 					<use
 						href="#icon-email-envelope"
@@ -33,9 +39,9 @@
 						/>
 				</svg>
 				<cms:text constant="mail"/>
-			</span>
+			</a>
 
-			<span>
+			<a href="javascript:void(0)">
 				<svg>
 					<use
 						href="#icon-location"
@@ -43,9 +49,9 @@
 						/>
 				</svg>
 				<cms:text constant="address"/>
-			</span>
+			</a>
 
-			<a href="#">
+			<a href="#" class="share">
 				<cms:text constant="facebook_call_to_action"/>
 				<svg>
 					<use
@@ -58,7 +64,7 @@
 		</address>
 
 
-		<div class="contact_info">
+		<div id="contact" class="contact_info">
 			<div class="form_wrap">
 				<p><cms:text constant="form_title"/></p>
 				<cms:module
