@@ -477,3 +477,64 @@ div.article img {
 div.article p:last-of-type {
 	clear: both;
 }
+
+
+
+/*Tablet Version*/
+
+@media all and (max-width: 1024px) and (min-width: 768px){
+
+	div.main {
+	  display: block;
+	  text-align: center;
+	  padding: 0px calc((100vw - 1200px) / 2);
+	  background-image: url(../images/ipad-header-background-01.jpg);
+	  background-repeat: no-repeat;
+	  background-position: center top;
+	  background-size:100% auto;
+	  min-height: 715px;
+	}
+
+	div.main h1 {
+		display: block;
+		padding-top: 240px;
+		padding-bottom: 20px;
+		background-image: url(../images/logo.svg);
+		background-repeat: no-repeat;
+		background-position: center 100px;
+		background-size: 140px 140px;
+		color: #565656;
+		font-size: 2em;
+	}
+
+	header div.header_container	{
+		width: auto;
+	}
+
+	div.feature {
+		width: 300px;
+		height: 200px;
+	}
+
+	div.feature div.info p {
+		font-size: 1em;
+	}
+
+	div.feature div.description p {
+		font-size: 1em;
+	}
+
+	figure {
+		height: 300px;
+	}
+
+	div.about {
+		background-attachment: inherit;
+		background-size: 105% auto;
+	}
+
+	div.about h2 {
+		text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+	}
+
+}
