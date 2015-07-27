@@ -1,5 +1,5 @@
 <document>
-	<div class="feature" style="'background-image: url('.$params['image'].');'" cms:eval="style">
+	<a href="javascript:void(0)" class="feature" style="'background-image: url('.$params['image'].');'" cms:eval="style">
 		<div class="info">
 			<h3><cms:var param="title" multilanguage="yes"/></h3>
 			<p><cms:var param="description" multilanguage="yes"/></p>
@@ -13,5 +13,5 @@
 				cms:eval="text_id"
 				/>
 		</div>
-	</div>
+	</a>
 </document>	
