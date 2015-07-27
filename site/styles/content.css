@@ -121,6 +121,8 @@ div.feature {
 	height: 240px;
 	position: relative;
 	overflow: hidden;
+	-o-transition:all 0.3s;
+	-webkit-transition:all 0.3s;
 	transition:all 0.3s;
 }
 
@@ -128,11 +130,23 @@ div.feature:hover {
 	background-size: 120% auto;
 }
 
+div.feature:active {
+	background-size: 120% auto;
+}
+
 div.feature:hover div.info {
 	opacity: 0;
 }
 
+div.feature:active div.info {
+	opacity: 0;
+}
+
 div.feature:hover div.description {
+	opacity: 1;
+}
+
+div.feature:active div.description {
 	opacity: 1;
 }
 
@@ -146,12 +160,16 @@ div.feature div.info {
 	padding-bottom: 10px;
 	background-color: rgba(0, 0, 0, 0.7);
 	color:white;
+	-o-transition:all 0.3s;	
+	-webkit-transition:all 0.3s;
 	transition:all 0.3s;
 }
 
 div.feature div.info h3 {
 	display: block;
 	text-align: center;
+	-o-transition:all 0.3s;	
+	-webkit-transition:all 0.3s;
 	transition:all 0.3s;	
 }
 
@@ -160,6 +178,8 @@ div.feature div.info p {
 	text-align: center;
 	padding-left: 15px;
 	padding-right: 15px;
+	-o-transition:all 0.3s;	
+	-webkit-transition:all 0.3s;	
 	transition:all 0.3s;	
 }
 
@@ -172,6 +192,8 @@ div.feature div.description {
 	background-color: rgba(0, 0, 0, 0.7);
 	color:white;
 	opacity: 0;
+	-o-transition:all 0.3s;	
+	-webkit-transition:all 0.3s;	
 	transition:all 0.3s;
 
 }
