@@ -1,5 +1,6 @@
 <document>
 	<div class="testimonial">
 		<cms:markdown param="content" multilanguage="yes"/>
+		<strong><cms:var param="title" multilanguage="yes"/></strong>
 	</div>
 </document>
