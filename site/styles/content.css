@@ -507,14 +507,14 @@ div.article p:last-of-type {
 @media all and (max-width: 1024px) and (min-width: 768px){
 
 	div.main {
-	  display: block;
-	  text-align: center;
-	  padding: 0px calc((100vw - 1200px) / 2);
-	  background-image: url(../images/ipad-header-background-01.jpg);
-	  background-repeat: no-repeat;
-	  background-position: center top;
-	  background-size:100% auto;
-	  min-height: 715px;
+		display: block;
+		text-align: center;
+		padding: 0px calc((100vw - 1200px) / 2);
+		background-image: url(../images/ipad-header-background-01.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size:100% auto;
+		min-height: 715px;
 	}
 
 	div.main h1 {
