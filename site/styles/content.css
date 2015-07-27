@@ -111,7 +111,7 @@ div.features {
 	padding:0px calc((100vw - 1200px) / 2);
 }
 
-div.feature {
+a.feature {
 	display: inline-block;
 	vertical-align: top;
 	background-repeat: no-repeat;
@@ -126,31 +126,31 @@ div.feature {
 	transition:all 0.3s;
 }
 
-div.feature:hover {
+a.feature:hover {
 	background-size: 120% auto;
 }
 
-div.feature:active {
+a.feature:active {
 	background-size: 120% auto;
 }
 
-div.feature:hover div.info {
+a.feature:hover div.info {
 	opacity: 0;
 }
 
-div.feature:active div.info {
+a.feature:active div.info {
 	opacity: 0;
 }
 
-div.feature:hover div.description {
+a.feature:hover div.description {
 	opacity: 1;
 }
 
-div.feature:active div.description {
+a.feature:active div.description {
 	opacity: 1;
 }
 
-div.feature div.info {
+a.feature div.info {
 	display: block;
 	position: absolute;
 	bottom: 0px;
@@ -165,7 +165,7 @@ div.feature div.info {
 	transition:all 0.3s;
 }
 
-div.feature div.info h3 {
+a.feature div.info h3 {
 	display: block;
 	text-align: center;
 	-o-transition:all 0.3s;	
@@ -173,7 +173,7 @@ div.feature div.info h3 {
 	transition:all 0.3s;	
 }
 
-div.feature div.info p {
+a.feature div.info p {
 	display: block;
 	text-align: center;
 	padding-left: 15px;
@@ -183,7 +183,7 @@ div.feature div.info p {
 	transition:all 0.3s;	
 }
 
-div.feature div.description {
+a.feature div.description {
 	position: absolute;
 	top:0px;
 	left: 0px;
@@ -198,7 +198,7 @@ div.feature div.description {
 
 }
 
-div.feature div.description p {
+a.feature div.description p {
 	padding-top: 75px;
 	padding-right: 15px;
 	padding-left: 15px;
