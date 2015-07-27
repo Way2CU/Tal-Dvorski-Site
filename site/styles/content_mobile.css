@@ -442,6 +442,8 @@ div.about h2 {
 
 div.testimonials {
 	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
