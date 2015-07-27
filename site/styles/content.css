@@ -399,29 +399,26 @@ div.about_us {
 	padding-top: 30px;
 }
 
-div.about_us h2 {
-	display: block;
-	margin-bottom: 30px;
-	font-weight: 300;
-	border-bottom: 2px solid #565656;
-}
-
 div.about_us div.article {
-	display: inline-block;
-	vertical-align: top;
-	padding-left: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
 	text-align: right;
-	width: calc(60% - 20px);
+	clear:both;
+	width: 960px;
 }
 
-div.about_us a {
-	display: inline-block;
-	vertical-align: top;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+div.article p {
+	display: block;
+}
+
+div.article img {
 	width: 40%;
-	height: 300px;
+	float:left;
+	margin-right:40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 
