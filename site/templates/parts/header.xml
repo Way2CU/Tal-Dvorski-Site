@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
+	<!-- Desktop Header Section -->
+	<cms:desktop>
 	<header>
 		<div class="header_container">
 			<nav>
@@ -65,4 +67,76 @@
 			</div>
 		</div>
 	</header>
+	</cms:desktop>
+
+	<!-- Mobile Header Section -->
+
+	<cms:mobile>
+		<header>
+
+			<div class="mobile_title">
+				<a href="javascript:void(0)" class="menu"></a>
+				<a href="url_Make('', 'home')" class="logo" cms:eval="href"></a>
+				<a
+					href="'tel:'.urlencode(Language::getText('phone'))"
+					cms:eval="href"
+					class="phone"
+					>
+					<svg>
+						<use
+							href="#icon-phone"
+							xlink:href="site/images/site-images.svg#icon-phone"	
+							/>
+					</svg>
+				</a>
+			</div>
+
+			<nav class="mobile_menu">
+				<a
+					class="$section == 'home' ? 'active' : false"
+					href="url_Make('', 'home')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_home"/>
+				</a>
+
+				<a
+					class="$section == 'about' ? 'active' : false"
+					href="url_Make('', 'about')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_about"/>
+				</a>
+
+				<a
+					class="$section == 'gallery' ? 'active' : false"
+					href="url_Make('', 'gallery')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_gallery"/>
+				</a>
+
+				<a
+					class="$section == 'articles' ? 'active' : false"
+					href="url_Make('', 'articles')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_articles"/>
+				</a>
+
+				<a
+					class="$section == 'contact' ? 'active' : false"
+					href="#contact"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_contact"/>
+				</a>
+			</nav>
+			
+		</header>
+	</cms:mobile>	
 </document>
