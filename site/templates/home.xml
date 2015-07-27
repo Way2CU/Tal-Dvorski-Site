@@ -55,13 +55,25 @@
 				</a>
 	
 			</div>
+			<cms:desktop>
+				<cms:module
+					name="gallery"
+					action="show_image_list"
+					group="home_page_gallery"
+					template="parts/home_gallery_images.xml"
+					/>
+			</cms:desktop>
 
-			<cms:module
-				name="gallery"
-				action="show_image_list"
-				group="home_page_gallery"
-				template="parts/home_gallery_images.xml"
-				/>
+			<cms:mobile>
+				<div class="figure_wrap">
+					<cms:module
+						name="gallery"
+						action="show_image_list"
+						group="home_page_gallery"
+						template="parts/home_gallery_images.xml"
+						/>
+				</div>	
+			</cms:mobile>
 
 			<div class="about">
 				<cms:module
