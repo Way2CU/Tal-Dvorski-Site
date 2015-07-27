@@ -1,4 +1,4 @@
-<document>
+<!-- <document>
 	<div class="article" data-id="$params['text_id']" cms:eval="data-id">
 		<cms:markdown param="content" multilanguage="yes"/>
 	</div>
@@ -9,4 +9,4 @@
 			template="parts/image2.xml"
 			cms:eval="text_id"
 			/>
-</document>
+</document> -->
