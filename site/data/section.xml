@@ -12,5 +12,5 @@
 	</section>
 	<section name="articles">
 		<language name="all" file="articles.xml" />
-	</section>			
+	</section>				
 </document>
