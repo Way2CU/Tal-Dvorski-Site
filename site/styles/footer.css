@@ -260,3 +260,39 @@ footer div.copyright span a {
 footer div.copyright span a:hover {
 	color:#5bc2d8;
 }
+
+
+/*Tablet Version*/
+@media all and (max-width: 1024px) and (min-width: 768px){
+
+	footer address a svg {
+		padding-left: 15px;
+	}
+
+	footer figure {
+	  width: calc(50% - 4px);
+	  margin-right: 5%;
+	}
+
+	form label:before {
+	  content: "";
+	  position: absolute;
+	  top: 5px;
+	  right: 45px;
+	  background-image: url(../images/form-icons.svg);
+	  background-repeat: no-repeat;
+	  background-position: 0px 0px;
+	  background-size: 200px 50px;
+	  width: 40px;
+	  height: 40px;
+	}
+
+	div.article {
+		width: 800px;
+	}
+
+	div.about_us div.article {
+		width: 800px;
+	}
+
+}
