@@ -73,8 +73,15 @@
 					text_id="contact"
 					/>
 			</div>
-		
-			<figure></figure>
+
+			<cms:desktop>
+				<figure></figure>
+			</cms:desktop>
+
+			<cms:mobile>
+				<span></span>
+			</cms:mobile>
+
 		</div>
 
 		<div class="copyright" >
