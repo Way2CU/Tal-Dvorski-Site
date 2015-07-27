@@ -1,0 +1,66 @@
+/**
+ * Header Mobile Style Sheet
+ * Tal Dvorski Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+header {
+ 	display: block;
+ 	text-align: center;
+}
+
+div.mobile_title {
+	background-color:white;
+}
+
+div.mobile_title.visible a.menu {
+	right: -20px;
+}
+
+body.rtl .mobile_menu.visible {
+  right: 0px;
+  width: 50%;
+}
+
+header a.phone  {
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	margin-top: -20px;
+	left:10px; 
+}
+
+header a.phone svg {
+	width: 40px;
+	height: 40px;
+	fill:#742d23;
+}
+
+header a.logo {
+	display: inline-block;
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 70px 70px;
+	width: 70px;
+	height: 70px;
+}
+
+header a.menu {
+	position: absolute;
+	display: inline-block;
+	top:50%;
+	margin-top: -20px;
+	right: 0px;
+	background-image: url(../images/menu.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 40px 40px;
+	width: 40px;
+	height: 40px;
+	transition:all 0.3s;
+}
+
+
