@@ -293,7 +293,7 @@ div.testimonials h2 {
 div.container {
 	display: block;
 	position: relative;
-	min-height: 230px;
+	min-height: 280px;
 }
 
 div.testimonial {
@@ -305,6 +305,13 @@ div.testimonial {
 	opacity:0;
 	border-top:1px solid #565656;
 	transition:all 0.3s;
+}
+
+div.testimonial strong {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.3em;
 }
 
 div.testimonial.visible {
