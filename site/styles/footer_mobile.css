@@ -1,0 +1,239 @@
+/**
+ * Footer Mobile Style Sheet
+ * Tal Dvorski Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+footer {
+ 	display: block;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	background-image: url(../images/texture.png);
+ 	background-repeat: repeat;
+ 	background-position:center center;
+ 	background-size: 227px 227px;
+ 	position: relative;
+ }
+
+footer h2 {
+ 	display: block;
+ 	padding-top: 150px;
+ 	padding-bottom: 20px;
+ 	background-image: url(../images/logo.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: 150px 150px;
+ 	font-size: 1.4em;
+ 	color:#565656;
+ }
+
+footer address {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom:10px;
+	font-style: normal;
+	border-top: 1px solid #565656;
+	color:#565656;
+	width: 80%;
+}
+
+footer address a {
+	display:block;
+	text-align: right;
+	padding: 5px 0px;
+	color:#565656;
+	text-decoration: none;
+	font-size: 1.1em;
+	transition:all 0.3s;
+}
+
+footer address a:hover {
+	color:#742d23;
+}
+
+footer address a:hover svg {
+	fill:#742d23;
+}
+
+footer address a svg {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+	width: 25px;
+	height: 25px;
+	fill:#565656;
+	transition:all 0.3s;
+}
+
+footer address a.share {
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 1.1em;
+	color: #425F9C;
+	text-decoration: none;
+	transition: all 0.3s;
+	width: 100%;
+}
+
+footer address a.share svg {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 5px;
+	width: 23px;
+	height: 23px;
+	fill:#425F9C;
+	transition:all 0.3s;	
+}
+
+div.contact_info {
+	display: block;
+	padding-bottom: 20px;
+}
+
+div.form_wrap {
+	display:block;
+}
+
+div.form_wrap p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	font-size: 1.6em;
+	width: 90%;
+}
+
+form {
+	display: block;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+	position:relative;
+}
+
+form label:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	right:5px;
+	background-image: url(../images/form-icons.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 200px 50px;
+	width: 50px;
+	height: 50px;
+}
+
+form label:nth-of-type(2):before {
+	background-position: -50px 0px;	
+}
+
+form label:nth-of-type(3):before {
+	background-position: -100px 0px;	
+}
+
+form label:nth-of-type(4):before {
+	background-position: -150px 0px;	
+}
+
+form label input {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	border: 1px solid #565656;
+  	background-color: rgba(255, 255, 255, 0.3);
+	width: calc(95% - 40px);
+	transition:all 0.3s;
+}
+
+form div.controls {
+	display: block;
+}
+
+form div.controls button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 95%;
+	color: white;
+	background-color: #742d23;
+	cursor: pointer;
+	font-size: 1.3em;
+	border: none;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.39);
+	transition:all 0.3s;
+}
+
+::-webkit-input-placeholder {
+   color: #565656;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #565656;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #565656;  
+}
+
+:-ms-input-placeholder {  
+   color: #565656;  
+} 
+
+div.contact_info > span{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background-image: url(../images/footer-map.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	width:100%;
+	height: 200px;
+}
+
+footer div.copyright {
+	display: block;
+	background-color: black;
+	direction: ltr;
+}
+
+
+
+footer div.copyright span {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	background-image: url(../images/way2cu-color.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px 34.5px;
+	font-size: 0.7em;
+	color: white;
+	text-align: left;
+	width: 200px;
+}
+
+footer div.copyright span a {
+	display: inline-block;
+	padding-left: 5px;
+	text-decoration: underline;
+	color:#449bb5;
+	transition:all 0.3s;
+}
+
+footer div.copyright span a:hover {
+	color:#5bc2d8;
+}
+
