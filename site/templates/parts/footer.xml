@@ -77,7 +77,7 @@
 			<figure></figure>
 		</div>
 
-		<div class="copyright" id="contact" >
+		<div class="copyright" >
 			<span><cms:text constant="copyright"/></span>
 		</div>
 
