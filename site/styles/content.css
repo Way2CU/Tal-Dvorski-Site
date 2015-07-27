@@ -533,16 +533,16 @@ div.article p:last-of-type {
 		width: auto;
 	}
 
-	div.feature {
+	a.feature {
 		width: 300px;
 		height: 200px;
 	}
 
-	div.feature div.info p {
+	a.feature div.info p {
 		font-size: 1em;
 	}
 
-	div.feature div.description p {
+	a.feature div.description p {
 		font-size: 1em;
 	}
 
