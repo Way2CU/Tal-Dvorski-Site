@@ -40,20 +40,27 @@ footer address {
 	width: 600px;
 }
 
-footer address span {
+footer address a {
 	display: inline-block;
 	vertical-align: middle;
 	text-align: right;
-	vertical-align: middle;
 	padding: 5px 0px;
+	color:#565656;
+	text-decoration: none;
+	font-size: 1.3em;
 	width: 50%;
+	transition:all 0.3s;
 }
 
-footer address span:hover svg {
+footer address a:hover {
+	color:#742d23;
+}
+
+footer address a:hover svg {
 	fill:#742d23;
 }
 
-footer address span svg {
+footer address a svg {
 	display: inline-block;
 	vertical-align: middle;
 	padding-left: 8px;
@@ -63,25 +70,27 @@ footer address span svg {
 	transition:all 0.3s;
 }
 
-footer address a {
+footer address a.share {
 	display: block;
+	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: 1.3em;
-	color:#565656;
+	color: #565656;
 	text-decoration: none;
-	transition:all 0.3s;
+	transition: all 0.3s;
+	width: 100%;
 }
 
-footer address a:hover {
+footer address a.share:hover {
 	color:#425F9C;
 }
 
-footer address a:hover svg {
+footer address a.share:hover svg {
 	fill:#425F9C;
 }
 
-footer address a svg {
+footer address a.share svg {
 	display: inline-block;
 	vertical-align: middle;
 	padding-right: 8px;
