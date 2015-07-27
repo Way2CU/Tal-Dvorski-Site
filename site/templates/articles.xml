@@ -14,8 +14,12 @@
 			<cms:template file="parts/header.xml"/>
 
 			<div class="$section == 'articles' ? 'articles' : false" cms:optional="class">
-				<h2><cms:text constant="menu_articles"/></h2>
-				
+					<cms:module
+						name="articles"
+						action="show_group"
+						text_id="tal_articles"
+						template="parts/article_group2.xml"
+					/>
 			</div>
 
 			<cms:template file="parts/footer.xml"/>
