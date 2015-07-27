@@ -14,12 +14,11 @@
 			<cms:template file="parts/header.xml"/>
 
 			<div class="$section == 'about' ? 'about_us' : false" cms:optional="class">
-				<h2><cms:text constant="menu_about"/></h2>
 				<cms:module
 					name="articles"
 					action="show"
 					text_id="about_us"
-					template="parts/article3.xml"
+					template="parts/article4.xml"
 					/>
 			</div>
 
