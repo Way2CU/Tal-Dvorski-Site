@@ -551,7 +551,7 @@ div.article p:last-of-type {
 	}
 
 	div.about {
-		background-attachment: inherit;
+		background-attachment: initial;
 		background-size: 105% auto;
 	}
 
