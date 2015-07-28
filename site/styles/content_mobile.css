@@ -27,6 +27,24 @@
  	font-size: 1.3em;
  }
 
+  div.dialog div.title {
+ 	text-align: center;
+ 	color:white;
+ 	background-color: #742d23;
+ }
+
+ div.content div.inner_content {
+ 	background-image: url(../images/logo.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: center bottom;
+ 	background-size: 80px 80px;
+ }
+
+  div.content div.inner_content div {
+	padding: 3px !important;
+	text-align: center;	
+  }
+
   /*Home page*/
 
 div.main {
