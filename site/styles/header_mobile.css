@@ -23,15 +23,34 @@ body.rtl .mobile_menu.visible a.active {
 	color:#742d23;
 }
 
-body.rtl .mobile_menu.visible {
-	text-align: right;
+body.rtl .mobile_menu {
+	left: auto;
 	right: 0px;
-	width: 50%;
+	width: 100%;
+	top: -100% !important;
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center 250px;
+	background-size: 100px 100px;
+	background-color: antiquewhite;	
+}
+
+body.rtl .mobile_menu.visible {
+	text-align: center;
+	right: 0px;
+	width: 100%;
+	top: 75px !important;
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center 250px;
+	background-size: 100px 100px;
+	background-color: antiquewhite;	
 }
 
 body.rtl .mobile_menu.visible a {
 	border-bottom: 1px solid #742d23;
 	color:#565656;
+	font-size: 1.2em;
 }
 
 header a.phone  {
