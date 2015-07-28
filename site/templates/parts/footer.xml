@@ -74,13 +74,7 @@
 					/>
 			</div>
 
-			<cms:desktop>
-				<figure></figure>
-			</cms:desktop>
-
-			<cms:mobile>
-				<span></span>
-			</cms:mobile>
+			<figure></figure>
 
 		</div>
 
