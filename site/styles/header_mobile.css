@@ -19,9 +19,19 @@ div.mobile_title.visible a.menu {
 	right: -20px;
 }
 
+body.rtl .mobile_menu.visible a.active {
+	color:#742d23;
+}
+
 body.rtl .mobile_menu.visible {
-  right: 0px;
-  width: 50%;
+	text-align: right;
+	right: 0px;
+	width: 50%;
+}
+
+body.rtl .mobile_menu.visible a {
+	border-bottom: 1px solid #742d23;
+	color:#565656;
 }
 
 header a.phone  {
