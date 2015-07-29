@@ -59,7 +59,7 @@ Site.on_load = function() {
 	
 	testimonial = new PageControl('div.container','div.testimonial')
 	testimonial.attachControls($('div.btn_controls a.control'))
-	.setInterval(5000)
+	.setInterval(8000)
 	.setWrapAround(true);
 
 	Caracal.lightbox = new LightBox('a.image.direct', false, false, true);
