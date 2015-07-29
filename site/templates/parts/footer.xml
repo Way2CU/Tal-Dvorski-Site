@@ -67,6 +67,7 @@
 		<div id="contact" class="contact_info">
 			<div class="form_wrap">
 				<p><cms:text constant="form_title"/></p>
+				<span><cms:text constant="form_warning"/></span>
 				<cms:module
 					name="contact_form"
 					action="show"
