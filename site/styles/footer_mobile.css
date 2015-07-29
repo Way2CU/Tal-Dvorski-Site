@@ -109,6 +109,16 @@ div.form_wrap p {
 	width: 90%;
 }
 
+div.form_wrap > span {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	color:red;
+	font-size: 0.9em;
+	width: 90%;
+}
+
 form {
 	display: block;
 }
@@ -148,10 +158,14 @@ form label input {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 40px;
-	border: 1px solid #565656;
+	border: 1px solid red;
   	background-color: rgba(255, 255, 255, 0.3);
 	width: calc(95% - 40px);
 	transition:all 0.3s;
+}
+
+form label input[name="address"] {
+	border:1px solid #742d23;
 }
 
 form div.controls {
