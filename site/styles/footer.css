@@ -114,7 +114,14 @@ div.form_wrap {
 
 div.form_wrap p {
 	display: block;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+div.form_wrap > span {
+	display: block;
+	color:red;
+	font-size: 0.9em;
+	padding-bottom: 10px;
 }
 
 form {
@@ -125,7 +132,6 @@ form label {
 	display: block;
 	margin-bottom: 10px;
 	position:relative;
-
 }
 
 form label:before {
@@ -158,10 +164,14 @@ form label input {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 40px;
-	border: 1px solid #565656;
+	border: 1px solid red;
   	background-color: rgba(255, 255, 255, 0.3);
 	width: calc(80% - 40px);
 	transition:all 0.3s;
+}
+
+form label input[name="address"] {
+	border:1px solid #742d23;
 }
 
 form label input:hover {
