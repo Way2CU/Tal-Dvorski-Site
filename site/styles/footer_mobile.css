@@ -201,7 +201,7 @@ form div.controls button {
    color: #565656;  
 } 
 
-div.contact_info > figure{
+div.contact_info > a.waze{
 	display: block;
 	margin: 0px;
 	margin-left: auto;
