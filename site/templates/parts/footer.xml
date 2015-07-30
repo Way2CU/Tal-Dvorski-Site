@@ -74,9 +74,12 @@
 					text_id="contact"
 					/>
 			</div>
-
-			<figure></figure>
-
+			<cms:desktop>
+				<figure></figure>
+			</cms:desktop>
+			<cms:mobile>
+				<a href="waze://?ll=32.0780844,34.9236001" target="_blank" class="waze"></a>
+			</cms:mobile>
 		</div>
 
 		<div class="copyright" >
