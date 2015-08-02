@@ -560,9 +560,9 @@ div.gallery a {
 	background-size: cover;
 	text-decoration: none;
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
-	width:150px;
-	height:150px;
-	transition:all 0.3s;
+	width: 95%;
+	height: 200px;
+	transition: all 0.3s;
 }
 
 div.gallery a:hover p {
@@ -571,7 +571,7 @@ div.gallery a:hover p {
 
 div.gallery a p {
 	display: block;
-	padding-top: 155px;
+	padding-top: 200px;
 	color: #565656;
 	font-size: 0.9em;
 	transition:all 0.3s;
