@@ -9,7 +9,7 @@
 			<cms:module name="head_tag" action="print_tag"/>
 			<meta property="og:site_name" content="Tal Dvorsky Wooden Arts"/>
 			<meta property="og:url" content="http://www.talart.co.il" />
-			<meta property="og:image" content="http://76466233.ngrok.com/site/gallery/images/5a7a7d265988fa2a8c8efc233f857a20.jpg" />
+			<meta property="og:image" content="../images/logo.svg" />
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
