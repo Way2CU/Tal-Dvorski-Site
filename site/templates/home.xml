@@ -7,7 +7,7 @@
 			<title><cms:text constant="site_title"/><cms:raw text=" - "/><cms:text constant="menu_home"/></title>
 			<cms:collection include="page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
-			<meta property="og:site_name" content="Tal Dvorsky Wooden Arts"/>
+			<meta property="og:title" content="Tal Dvorski wooden arts" />
 			<meta property="og:url" content="http://www.talart.co.il" />
 			<meta property="og:image" content="../images/logo.svg" />
 		</head>
