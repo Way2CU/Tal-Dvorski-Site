@@ -51,7 +51,7 @@
 				<cms:text constant="address"/>
 			</a>
 
-			<a href="#" class="share">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=talart.co.il" class="share">
 				<cms:text constant="facebook_call_to_action"/>
 				<svg>
 					<use
