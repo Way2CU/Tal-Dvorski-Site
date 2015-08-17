@@ -56,8 +56,11 @@ Site.on_load = function() {
 
 	}
 
+	if (!Site.is_mobile()) {
 
-
+		Caracal.lightbox = new LightBox('a.image.direct', false, false, true);
+	}
+	
 	testimonial = new PageControl('div.container','div.testimonial')
 	testimonial.attachControls($('div.btn_controls a.control'))
 	.setInterval(10000)
