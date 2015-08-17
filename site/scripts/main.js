@@ -57,12 +57,15 @@ Site.on_load = function() {
 	}
 
 	if (!Site.is_mobile()) {
+
+		Caracal.lightbox = new LightBox('a.image.direct', false, false, true);
+	}
+	
 	testimonial = new PageControl('div.container','div.testimonial')
 	testimonial.attachControls($('div.btn_controls a.control'))
 	.setInterval(10000)
 	.setWrapAround(true);
 
-	Caracal.lightbox = new LightBox('a.image.direct', false, false, true);
 
 	$('a[href*=#]').bind('click', function(e) {
 	e.preventDefault(); //prevent the "normal" behaviour which would be a "hard" jump
@@ -76,7 +79,7 @@ Site.on_load = function() {
 
 	return false;
    });
-	}	
+
 
 };
 
