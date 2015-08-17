@@ -338,14 +338,14 @@ div.container {
 }
 
 div.testimonial {
-	position: absolute;
-	padding-top: 10px;
-	left: 50%;
-	margin-left: -300px;
-	width: 600px;
-	opacity:0;
-	border-top:1px solid #565656;
-	transition:all 0.3s;
+    position: absolute;
+    padding-top: 10px;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    opacity: 0;
+    border-top: 1px solid #565656;
+    transition: all 0.3s;
 }
 
 div.testimonial strong {
