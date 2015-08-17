@@ -56,7 +56,7 @@ Site.on_load = function() {
 
 	}
 
-	
+	if (!Site.is_mobile()) {
 	testimonial = new PageControl('div.container','div.testimonial')
 	testimonial.attachControls($('div.btn_controls a.control'))
 	.setInterval(10000)
@@ -76,6 +76,7 @@ Site.on_load = function() {
 
 	return false;
    });
+	}	
 
 };
 
