@@ -28,7 +28,7 @@
 						name="gallery"
 						action="show_group"
 						id="$_REQUEST['id']"
-						template="parts/group_title.xml"
+						template="parts/gallery_title.xml"
 						cms:eval="id"
 						/>
 				</h2>
