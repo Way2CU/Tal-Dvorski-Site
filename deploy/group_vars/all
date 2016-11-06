@@ -1,13 +1,15 @@
 ---
 site:
   domain: sample.com
-  make_alias: false
+  # subdomain: test
+  # alias: domain.com
   root: httpdocs
-  username: "sample"
-  caracal_branch: develop
+  username: sample
+  caracal_branch: master
   # ip_address: 0.0.0.0
   # owner: Some Person
   # plan: Unlimited
+  # database_type: 'mysql'
 
 local_site_directory: ../site
 subscription_directory: "{{ plesk_vhost_directory }}/{{ site.domain }}"

@@ -2,7 +2,7 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<cms:var name="_DOCTYPE"/>
-	<html lang="$language" cms:eval="lang">
+	<html lang="$language" dir="$language_rtl ? 'rtl' : 'ltr'" cms:eval="lang,dir">
 		<head>
 			<title><cms:text constant="site_title"/><cms:raw text=" - "/><cms:text constant="menu_home"/></title>
 			<cms:collection include="page_control"/>
@@ -13,7 +13,7 @@
 			<meta property="og:image" content="http://talart.co.il/site/images/1.jpg"/>
 		</head>
 
-		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+		<body>
 			<cms:svg file="../images/site-images.svg"/>
 			<cms:template file="parts/header.xml"/>
 
@@ -28,7 +28,7 @@
 					<svg>
 						<use
 							href="#icon-phone"
-							xlink:href="site/images/site-images.svg#icon-phone"	
+							xlink:href="site/images/site-images.svg#icon-phone"
 							/>
 					</svg>
 				</a>
@@ -51,13 +51,13 @@
 					template="parts/article.xml"
 					/>
 
-				<a 
+				<a
 					href="url_Make('', 'gallery')"
 					cms:eval="href"
 					>
 					<cms:text constant="btn_gallery"/>
 				</a>
-	
+
 			</div>
 			<cms:desktop>
 				<cms:module
@@ -76,7 +76,7 @@
 						group="home_page_gallery"
 						template="parts/home_gallery_images.xml"
 						/>
-				</div>	
+				</div>
 			</cms:mobile>
 
 			<div class="about">
@@ -86,7 +86,7 @@
 					text_id="home_page_about"
 					template="parts/article2.xml"
 					/>
-			</div>	
+			</div>
 
 			<div class="testimonials">
 				<cms:module
