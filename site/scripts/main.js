@@ -62,6 +62,13 @@ Site.on_load = function() {
 	testimonial.attachControls($('div.btn_controls a.control'))
 	.setInterval(10000)
 	.setWrapAround(true);
+
+	Caracal.ContactForm.list[0].events.connect('submit-success', function(data) {
+		dataLayer.push({
+            event: "leadSent"
+        });
+		return true;
+	});
 };
 
 
