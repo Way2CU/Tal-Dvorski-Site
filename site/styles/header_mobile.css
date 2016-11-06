@@ -19,46 +19,43 @@ div.mobile_title.visible a.menu {
 	right: -20px;
 }
 
-body.rtl .mobile_menu.visible a.active {
+nav.mobile_menu.visible a.active {
 	color:#742d23;
 }
 
-body.rtl .mobile_menu {
-	left: auto;
-	right: 0px;
+html[dir="rtl"] nav.mobile_menu {
+	right: -100%;
 	width: 100%;
-	top: -100% !important;
 	background-image: url(../images/logo.svg);
 	background-repeat: no-repeat;
 	background-position: center 250px;
 	background-size: 100px 100px;
-	background-color: antiquewhite;	
+	background-color: antiquewhite;
 }
 
-body.rtl .mobile_menu.visible {
+nav.mobile_menu.visible {
 	text-align: center;
 	right: 0px;
 	width: 100%;
-	top: 75px !important;
 	background-image: url(../images/logo.svg);
 	background-repeat: no-repeat;
 	background-position: center 250px;
 	background-size: 100px 100px;
-	background-color: antiquewhite;	
+	background-color: antiquewhite;
 }
 
-body.rtl .mobile_menu.visible a {
+nav.mobile_menu a {
 	border-bottom: 1px solid #742d23;
 	color:#565656;
 	font-size: 1.2em;
 }
 
-header a.phone  {
+header a.phone {
 	position: absolute;
 	display: inline-block;
 	top: 50%;
 	margin-top: -20px;
-	left:10px; 
+	left:10px;
 }
 
 header a.phone svg {
