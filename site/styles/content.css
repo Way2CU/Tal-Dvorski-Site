@@ -418,7 +418,7 @@ div.gallery a {
 	transition:all 0.3s;
 	color: #33485d;
 	position: relative;
-	ont-weight: 700;
+	font-weight: 700;
 }
 
 div.gallery a:hover {
@@ -451,7 +451,6 @@ div.gallery a p {
 	color: #565656;
 	font-size: 1em;
 	transition:all 0.3s;
-
 }
 
 /*About Page*/

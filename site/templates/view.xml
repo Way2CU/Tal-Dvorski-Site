@@ -37,6 +37,7 @@
 					name="gallery"
 					action="show_image_list"
 					group_id="$_REQUEST['id']"
+					order_by="timestamp"
 					template="parts/image2.xml"
 					cms:eval="group_id"
 					/>

@@ -12,7 +12,7 @@ header {
 	top:0px;
 	left:0px;
 	width:100%;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: white;
   	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
   	z-index: 10000;
 }
@@ -29,7 +29,7 @@ header div.header_container {
 div.call_to_action {
 	display: table-cell;
 	vertical-align: middle;
-	text-align: left;	
+	text-align: left;
 	width: 50%
 }
 
@@ -40,7 +40,7 @@ div.call_to_action a {
 	text-decoration: none;
 	font-size: 1.5em;
 	font-weight: 700;
-	transition:all 0.3s;	
+	transition:all 0.3s;
 }
 
 div.call_to_action a:hover {
@@ -55,7 +55,7 @@ div.call_to_action a svg {
 	display: inline-block;
 	vertical-align: middle;
 	fill:#742d23;
-	transition:all 0.3s;	
+	transition:all 0.3s;
 }
 
 div.call_to_action a:hover svg {
@@ -102,7 +102,7 @@ nav a:before {
 	width: 0%;
 	height: 2px;
 	background-color:#d25300;
-	transition:all 0.3s; 
+	transition:all 0.3s;
 }
 
 nav a:hover:before {
