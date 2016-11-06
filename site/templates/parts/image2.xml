@@ -1,10 +1,16 @@
 <document>
-	<a 
-		href="$params['image']" 
-		class="image direct" 
-		style="'background-image: url('.$params['image'].');'"
-		cms:eval="href,style"
+	<a
+		href="$params['image']"
+		class="image direct"
+		cms:eval="href"
 		>
-		<p><cms:var param="title" multilanguage="yes"/></p>	
+		<span>
+			<img
+				src="gallery::getThumbnailById($params['id'], null, 250 ,Thumbnail::CONSTRAIN_HEIGHT)"
+				alt="$params['title'][$language]"
+				cms:eval="src,alt"
+				/>
+		</span>
+		<p><cms:var param="title" multilanguage="yes"/></p>
 	</a>
 </document>

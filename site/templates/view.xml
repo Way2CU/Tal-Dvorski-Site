@@ -4,7 +4,16 @@
 	<cms:var name="_DOCTYPE"/>
 	<html lang="$language" dir="$language_rtl ? 'rtl' : 'ltr'" cms:eval="lang,dir">
 		<head>
-			<title><cms:text constant="site_title"/><cms:raw text=" - "/><cms:text constant="menu_gallery"/></title>
+			<title><cms:text constant="site_title"/>
+				<cms:raw text=" - "/>
+				<cms:module
+					name="gallery"
+					action="show_group"
+					id="$_REQUEST['id']"
+					template="parts/gallery_title.xml"
+					cms:eval="id"
+					/>
+			</title>
 			<cms:collection include="page_control,animation_chain"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
@@ -13,13 +22,23 @@
 			<cms:svg file="../images/site-images.svg"/>
 			<cms:template file="parts/header.xml"/>
 
-			<div class="$section == 'gallery' ? 'gallery' : false" cms:optional="class">
-				<h2><cms:text constant="menu_gallery"/></h2>
+			<div class="gallery">
+				<h2>
+					<cms:module
+						name="gallery"
+						action="show_group"
+						id="$_REQUEST['id']"
+						template="parts/group_title.xml"
+						cms:eval="id"
+						/>
+				</h2>
+
 				<cms:module
 					name="gallery"
-					action="show_group_list"
-					container="gallery"
-					template="parts/gallery_group.xml"
+					action="show_image_list"
+					group_id="$_REQUEST['id']"
+					template="parts/image2.xml"
+					cms:eval="group_id"
 					/>
 			</div>
 

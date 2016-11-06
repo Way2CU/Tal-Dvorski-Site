@@ -1,0 +1,16 @@
+<document>
+	<a
+		class="group_link"
+		href="url_Make('view', 'gallery', array('id',$params['id']))"
+		cms:eval="href"
+		>
+		<span>
+			<img
+				src="gallery::getGroupThumbnailById($params['id'], null, 250 ,Thumbnail::CONSTRAIN_HEIGHT)"
+				alt="$params['name'][$language]"
+				cms:eval="src,alt"
+				/>
+		</span>
+		<cms:var param="name" multilanguage="yes"/>
+	</a>
+</document>

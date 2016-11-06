@@ -8,6 +8,6 @@
 			template="parts/article_testimonial.xml"
 			cms:eval="group"
 			/>
-	</div>	
+	</div>
 
 </document>
