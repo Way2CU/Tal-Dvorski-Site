@@ -59,6 +59,7 @@
 				</a>
 
 			</div>
+
 			<cms:desktop>
 				<cms:module
 					name="gallery"
