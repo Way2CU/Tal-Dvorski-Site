@@ -85,6 +85,6 @@
 		<div class="copyright" >
 			<span><cms:text constant="copyright"/></span>
 		</div>
-
+		<cms:raw file="parts/gtmbottom.txt"/>
 	</footer>
 </document>	
